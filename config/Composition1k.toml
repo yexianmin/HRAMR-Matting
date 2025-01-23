@@ -1,0 +1,13 @@
+version = "HRAMR-Matting"
+dist = false
+
+[model]
+mateformer_pretrain_path = "pretrained/best_model.pth"
+
+[data]
+train_fg = "../dataset/com-1k/fg"
+train_alpha = "../dataset/com-1k/mask"
+train_bg = "../dataset/com-1k/bg"
+test_merged = "../dataset/com-1k/merged"
+test_alpha = "../dataset/com-1k/alpha_copy"
+test_trimap = "../dataset/com-1k/trimaps"
