@@ -2,9 +2,9 @@
 
 ### Requirements
 The codes are tested in the following environment:
-- python 3.8
-- pytorch 1.10.1
-- CUDA 10.2 & CuDNN 8
+- python 3.9
+- pytorch 1.8.0
+- CUDA 11.1 & CuDNN 8.0.5
 
 ~~~python
 pip3 install -r requirements.txt
