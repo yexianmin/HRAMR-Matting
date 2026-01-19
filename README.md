@@ -39,7 +39,7 @@ This repo borrows code from several repos, like [GCA](https://github.com/Yaoyi-L
 ## Reference
 If you find the code useful for your research, please consider citing.
 ```bib
-@ARTICLE{2025TIPYe,
+@ARTICLE{Ye2025HRAMR,
   author={Ye, Xianmin and Liang, Yihui and Tan, Mian and Feng, Fujian and Wang, Lin and Huang, Han},
   journal={IEEE Transactions on Image Processing}, 
   title={High-Resolution Natural Image Matting by Refining Low-Resolution Alpha Mattes}, 
