@@ -35,3 +35,15 @@ Evaluate the results using the evaluation code provided in Transparent-460.
 
 ## Acknowledgment
 This repo borrows code from several repos, like [GCA](https://github.com/Yaoyi-Li/GCA-Matting) and [MatteFormer](https://github.com/webtoon/matteformer.git)
+
+## Reference
+If you find the code useful for your research, please consider citing.
+@ARTICLE{2025TIPYe,
+  author={Ye, Xianmin and Liang, Yihui and Tan, Mian and Feng, Fujian and Wang, Lin and Huang, Han},
+  journal={IEEE Transactions on Image Processing}, 
+  title={High-Resolution Natural Image Matting by Refining Low-Resolution Alpha Mattes}, 
+  year={2025},
+  volume={34},
+  number={},
+  pages={3323-3335},
+  doi={10.1109/TIP.2025.3573620}}
