@@ -109,13 +109,13 @@ def monitor_gpu_memory():
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('--config', type=str, default='config/Composition1k.toml')
-    parser.add_argument('--checkpoint', type=str, default='checkpoints/best_model.pth', help="path of checkpoint")
+    parser.add_argument('--checkpoint', type=str, default='checkpoints/HRAMR-Matting.pth', help="path of checkpoint")
 
     # local
     parser.add_argument('--image-dir', type=str, default='../dataset/Transparent-460/composited_images/', help="input image dir")
     parser.add_argument('--mask-dir', type=str, default='../dataset/Transparent-460/trimap_copy/', help="input trimap dir")
     parser.add_argument('--trimap-dir', type=str, default='../dataset/Transparent-460/trimap_copy/', help="input trimap dir")
-    parser.add_argument('--output', type=str, default='HRAMR-Matting-MDRDLoss/Transparent-460/', help="output dir")
+    parser.add_argument('--output', type=str, default='HRAMR-Matting/Transparent-460/', help="output dir")
 
     # parser.add_argument('--image-dir', type=str, default='../alphamatting/input/', help="input image dir")
     # parser.add_argument('--mask-dir', type=str, default='../alphamatting/trimap/', help="input trimap dir")
